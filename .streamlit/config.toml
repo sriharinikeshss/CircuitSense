@@ -1,0 +1,15 @@
+[theme]
+# Primary accent color (clean deep blue/gray)
+primaryColor = "#2563EB"
+
+# Clean background
+backgroundColor = "#FFFFFF"
+
+# Subtle secondary background for sidebars/widgets
+secondaryBackgroundColor = "#F8FAFC"
+
+# Crisp text color
+textColor = "#0F172A"
+
+# Professional font
+font = "sans serif"

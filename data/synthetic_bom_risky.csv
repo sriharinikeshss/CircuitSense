@@ -1,0 +1,7 @@
+Reference,Value,Description,Quantity,Package,Manufacturer
+U1,LM7805,5V Linear Voltage Regulator,1,TO-220,Generic
+C1,470uF,Electrolytic Capacitor Input Filter,1,Radial 8x12mm,UnknownVendor
+R1,10K,Pull-up Resistor,1,0402,-
+J1,DC_Barrel,Power Input Jack,1,Barrel,-
+U2,UnknownIC,Generic Microcontroller,1,DIP-14,UnknownVendor
+R2,N/A,Missing Value Resistor,1,0805,-

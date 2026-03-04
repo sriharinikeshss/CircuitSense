@@ -1,0 +1,14 @@
+Reference,Value,Description,Quantity,Package,Manufacturer
+J1,DC_Barrel,Power Input Jack,1,Barrel,Generic
+F1,500mA,Resettable PTC Fuse Input Protection,1,1812,Bourns
+D1,SMAJ12A,TVS Diode Transient Voltage Suppressor,1,SMA,Littelfuse
+U1,TPS54331,3A Step-Down Switching Regulator,1,SOIC-8,Texas Instruments
+L1,10uH,Power Inductor,1,6x6mm,Wurth Elektronik
+C1,22uF,Ceramic Capacitor Input Filter,2,1206,Murata
+C2,47uF,Ceramic Capacitor Output Filter,2,1206,Murata
+U2,ATmega328P,8-bit Microcontroller,1,TQFP-32,Microchip
+Y1,16MHz,Crystal Oscillator,1,HC49S,ECS
+C3,22pF,Crystal Load Capacitor,2,0402,Samsung
+R1,10K,Pull-up Resistor,1,0402,Yageo
+D2,LED_Green,Power Indicator LED,1,0805,Kingbright
+R2,330,Current Limiting Resistor,1,0402,Yageo
