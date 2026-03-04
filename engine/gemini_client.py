@@ -63,7 +63,17 @@ def get_client():
         _client_instance = None
         return None
 
-    api_key = os.getenv("MISTRAL_API_KEY", "")
+    api_key = ""
+    try:
+        import streamlit as st
+        if "MISTRAL_API_KEY" in st.secrets:
+            api_key = st.secrets["MISTRAL_API_KEY"]
+    except Exception:
+        pass
+        
+    if not api_key:
+        api_key = os.getenv("MISTRAL_API_KEY", "")
+
     if not api_key or api_key == "your_api_key_here":
         _client_instance = None
         return None
